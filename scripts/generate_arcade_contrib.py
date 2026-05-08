@@ -201,21 +201,8 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
                 }
             )
 
-    non_zero = [c for c in cells if c["count"] > 0]
-    target_cells = list(non_zero)
-
-    # If there are no contributions, we still animate toward symbolic targets.
-    if not target_cells:
-        fallback_positions = [12, 16, 20, 24, 28, 32, 36, 40, 44, 48]
-        for idx, col in enumerate(fallback_positions):
-            target_cells.append(
-                {
-                    "x": grid_x + col * (cell + gap),
-                    "y": grid_y + (idx % 7) * (cell + gap),
-                    "count": 0,
-                    "date": "",
-                }
-            )
+    # Throw at every field so the barrage is visibly full.
+    target_cells = list(cells)
 
     title = f"{login}'s Arcade Contribution Arena"
     generated_on = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
@@ -342,7 +329,10 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
         dy = ty - throw_start_y
         dist = math.sqrt(dx * dx + dy * dy)
         dur = 1.9 + min(2.8, dist / 165.0)
-        impact_t = dur * 0.92
+        impact_pos = 0.92
+        impact_k0 = max(0.0, impact_pos - 0.05)
+        impact_k1 = impact_pos
+        impact_k2 = min(1.0, impact_pos + 0.06)
         cx1 = throw_start_x + (tx - throw_start_x) * 0.35
         cy1 = throw_start_y - 44
         cx2 = throw_start_x + (tx - throw_start_x) * 0.7
@@ -369,25 +359,28 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
   </g>
 
   <rect x="{target["x"]}" y="{target["y"]}" width="{cell}" height="{cell}" fill="{cell_fill}" opacity="1">
-    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.88;0.9;0.95;1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="{target["x"]}" y="{target["y"]}" width="{cell}" height="{cell}" fill="#0d1117" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
   <g class="impact" transform="translate({tx} {ty})" opacity="0">
     <circle r="1" fill="#ffe8a6">
-      <animate attributeName="r" values="1;11;16" keyTimes="0;0.45;1" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
     </circle>
     <line x1="-8" y1="-8" x2="8" y2="8" stroke="#ffd89a" stroke-width="1.2">
-      <animate attributeName="opacity" values="0;1;0" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
     </line>
     <line x1="8" y1="-8" x2="-8" y2="8" stroke="#ffd89a" stroke-width="1.2">
-      <animate attributeName="opacity" values="0;1;0" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
     </line>
     <line x1="0" y1="-10" x2="0" y2="10" stroke="#ffe2b4" stroke-width="1">
-      <animate attributeName="opacity" values="0;1;0" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
     </line>
     <line x1="-10" y1="0" x2="10" y2="0" stroke="#ffe2b4" stroke-width="1">
-      <animate attributeName="opacity" values="0;1;0" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
 """
