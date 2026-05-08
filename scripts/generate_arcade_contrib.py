@@ -10,6 +10,11 @@ import urllib.error
 import urllib.request
 from typing import Any
 
+try:
+    from PIL import Image
+except ImportError:
+    Image = None
+
 
 QUERY = """
 query($login: String!) {
@@ -80,6 +85,44 @@ def load_image_data_uri(path: pathlib.Path) -> str:
     return f"data:{mime};base64,{b64}"
 
 
+def build_clean_donkey_sprite(src: pathlib.Path, dst: pathlib.Path) -> pathlib.Path:
+    if not src.exists():
+        return dst if dst.exists() else src
+
+    if Image is None:
+        return dst if dst.exists() else src
+
+    if dst.exists() and dst.stat().st_mtime >= src.stat().st_mtime:
+        return dst
+
+    img = Image.open(src).convert("RGBA")
+    pix = img.load()
+    width, height = img.size
+
+    for y in range(height):
+        for x in range(width):
+            r, g, b, a = pix[x, y]
+            if a < 10:
+                pix[x, y] = (r, g, b, 0)
+                continue
+
+            brightness = (r + g + b) / 3.0
+            max_diff = max(abs(r - g), abs(g - b), abs(r - b))
+
+            # Remove bright, low-saturation checkerboard tiles.
+            if brightness > 190 and max_diff < 24:
+                pix[x, y] = (r, g, b, 0)
+            elif brightness > 155 and max_diff < 18:
+                # Soft edge fade around the removed background.
+                pix[x, y] = (r, g, b, int(a * 0.2))
+            else:
+                pix[x, y] = (r, g, b, a)
+
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    img.save(dst, "PNG")
+    return dst
+
+
 def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> None:
     weeks = calendar.get("weeks", [])
     total = int(calendar.get("totalContributions", 0))
@@ -132,7 +175,11 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
 
     title = f"{login}'s Arcade Contribution Arena"
     generated_on = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-    donkey_data_uri = load_image_data_uri(pathlib.Path("assets/donkeyK.png"))
+    donkey_sprite = build_clean_donkey_sprite(
+        pathlib.Path("assets/donkeyK.png"),
+        pathlib.Path("assets/donkeyK_clean.png"),
+    )
+    donkey_data_uri = load_image_data_uri(donkey_sprite)
 
     pieces = []
     pieces.append(
@@ -172,6 +219,10 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
       .gorilla {{
         animation: hop 2s ease-in-out infinite;
       }}
+      .dk-box {{
+        fill: #0d1117;
+        stroke: #30363d;
+      }}
       @keyframes hop {{
         0%,100% {{ transform: translateY(0); }}
         50% {{ transform: translateY(-3px); }}
@@ -209,6 +260,7 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
     if donkey_data_uri:
         pieces.append(
             f"""    <g class="gorilla" transform="translate(4 0)">
+      <rect class="dk-box" x="-2" y="-2" width="126" height="92" rx="8"/>
       <image href="{donkey_data_uri}" x="0" y="0" width="124" height="92" preserveAspectRatio="xMidYMid meet"/>
     </g>
 """
