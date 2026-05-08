@@ -50,8 +50,8 @@
   <rect x="18" y="18" width="998" height="289" rx="12" stroke="#294268" stroke-opacity="0.6" />
 
   <text x="28" y="42" class="t-main">Aleksandros2's Arcade Contribution Arena</text>
-  <text x="28" y="61" class="t-sub">Total contributions (last year): 958</text>
-  <text x="829" y="305" class="t-mini">auto-generated: 2026-05-08 17:13 UTC</text>
+  <text x="28" y="61" class="t-sub">Total contributions (last year): 117</text>
+  <text x="829" y="305" class="t-mini">auto-generated: 2026-05-08 17:14 UTC</text>
 
   <rect x="183" y="76" width="819" height="133" fill="url(#panel)" rx="10" stroke="#355784" stroke-opacity="0.5"/>
   <rect class="grid-cell" x="195" y="90" width="11" height="11" fill="#1a2030" />
@@ -59,21 +59,21 @@
   <rect class="grid-cell" x="195" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="195" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="195" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="195" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="195" y="180" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="195" y="165" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="195" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="210" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="210" y="105" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="210" y="120" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="210" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="210" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="210" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="210" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="210" y="180" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="210" y="165" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="210" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="225" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="225" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="225" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="225" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="225" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="225" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="225" y="165" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="225" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="240" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="240" y="105" width="11" height="11" fill="#1a2030" />
@@ -84,32 +84,32 @@
   <rect class="grid-cell" x="240" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="255" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="255" y="105" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="255" y="120" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="255" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="255" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="255" y="150" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="255" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="255" y="180" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="270" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="255" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="255" y="165" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="255" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="270" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="270" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="270" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="270" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="270" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="270" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="270" y="165" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="270" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="285" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="285" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="285" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="285" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="285" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="285" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="285" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="285" y="165" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="285" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="300" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="300" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="300" y="120" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="300" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="300" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="300" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="300" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="300" y="180" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="300" y="165" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="300" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="315" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="315" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="315" y="120" width="11" height="11" fill="#1a2030" />
@@ -117,7 +117,7 @@
   <rect class="grid-cell" x="315" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="315" y="165" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="315" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="330" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="330" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="330" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="330" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="330" y="135" width="11" height="11" fill="#1a2030" />
@@ -126,11 +126,11 @@
   <rect class="grid-cell" x="330" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="345" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="345" y="105" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="345" y="120" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="345" y="135" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="345" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="345" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="345" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="345" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="345" y="180" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="345" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="360" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="360" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="360" y="120" width="11" height="11" fill="#1a2030" />
@@ -138,67 +138,67 @@
   <rect class="grid-cell" x="360" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="360" y="165" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="360" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="375" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="375" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="375" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="375" y="120" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="375" y="135" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="375" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="375" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="375" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="375" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="375" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="390" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="390" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="390" y="120" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="390" y="135" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="390" y="150" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="390" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="390" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="390" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="390" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="390" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="405" y="90" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="405" y="105" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="405" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="405" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="405" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="405" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="405" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="405" y="165" width="11" height="11" fill="#3e6aa7" />
   <rect class="grid-cell" x="405" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="420" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="420" y="105" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="420" y="120" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="420" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="420" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="420" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="420" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="420" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="420" y="165" width="11" height="11" fill="#3e6aa7" />
   <rect class="grid-cell" x="420" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="435" y="90" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="435" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="435" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="435" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="435" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="435" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="435" y="150" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="435" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="435" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="435" y="165" width="11" height="11" fill="#3e6aa7" />
   <rect class="grid-cell" x="435" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="450" y="90" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="450" y="105" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="450" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="450" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="450" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="450" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="450" y="150" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="450" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="450" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="450" y="165" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="450" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="465" y="90" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="465" y="105" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="465" y="120" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="465" y="135" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="465" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="465" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="465" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="465" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="465" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="465" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="465" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="465" y="165" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="465" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="480" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="480" y="105" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="480" y="120" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="480" y="135" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="480" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="480" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="480" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="480" y="165" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="480" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="495" y="90" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="495" y="105" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="495" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="495" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="495" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="495" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="495" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="495" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="495" y="165" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="495" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="510" y="90" width="11" height="11" fill="#1a2030" />
@@ -208,223 +208,222 @@
   <rect class="grid-cell" x="510" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="510" y="165" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="510" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="525" y="90" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="525" y="105" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="525" y="120" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="525" y="135" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="525" y="150" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="525" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="525" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="525" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="525" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="525" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="525" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="525" y="165" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="525" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="540" y="90" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="540" y="105" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="540" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="540" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="540" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="540" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="540" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="540" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="540" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="540" y="180" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="540" y="165" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="540" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="555" y="90" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="555" y="105" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="555" y="120" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="555" y="135" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="555" y="150" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="555" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="555" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="555" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="555" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="555" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="555" y="165" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="555" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="570" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="570" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="570" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="570" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="570" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="570" y="165" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="570" y="180" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="570" y="165" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="570" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="585" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="585" y="105" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="585" y="120" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="585" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="585" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="585" y="150" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="585" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="585" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="585" y="165" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="585" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="600" y="90" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="600" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="600" y="105" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="600" y="120" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="600" y="135" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="600" y="150" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="600" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="600" y="180" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="615" y="90" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="615" y="105" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="600" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="600" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="600" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="600" y="165" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="600" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="615" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="615" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="615" y="120" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="615" y="135" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="615" y="150" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="615" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="615" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="615" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="615" y="165" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="615" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="630" y="90" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="630" y="105" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="630" y="120" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="630" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="630" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="630" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="630" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="630" y="150" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="630" y="165" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="630" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="630" y="165" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="630" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="645" y="90" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="645" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="645" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="645" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="645" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="645" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="645" y="150" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="645" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="645" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="645" y="165" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="645" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="660" y="90" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="660" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="660" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="660" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="660" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="660" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="660" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="660" y="165" width="11" height="11" fill="#3e6aa7" />
   <rect class="grid-cell" x="660" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="675" y="90" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="675" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="675" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="675" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="675" y="120" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="675" y="135" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="675" y="150" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="675" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="675" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="675" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="675" y="165" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="675" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="690" y="90" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="690" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="690" y="105" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="690" y="120" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="690" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="690" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="690" y="150" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="690" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="690" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="690" y="165" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="690" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="705" y="90" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="705" y="105" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="705" y="120" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="705" y="135" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="705" y="150" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="705" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="705" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="705" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="705" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="705" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="705" y="165" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="705" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="720" y="90" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="720" y="105" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="720" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="720" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="720" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="720" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="720" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="720" y="150" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="720" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="720" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="720" y="165" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="720" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="735" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="735" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="735" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="735" y="120" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="735" y="135" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="735" y="150" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="735" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="735" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="735" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="735" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="735" y="165" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="735" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="750" y="90" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="750" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="750" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="750" y="120" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="750" y="135" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="750" y="150" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="750" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="750" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="750" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="750" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="750" y="165" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="750" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="765" y="90" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="765" y="105" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="765" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="765" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="765" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="765" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="765" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="765" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="765" y="165" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="765" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="780" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="780" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="780" y="120" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="780" y="135" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="780" y="150" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="780" y="165" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="780" y="180" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="795" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="780" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="780" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="780" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="780" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="795" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="795" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="795" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="795" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="795" y="150" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="795" y="165" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="795" y="180" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="795" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="795" y="165" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="795" y="180" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="810" y="90" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="810" y="105" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="810" y="120" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="810" y="135" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="810" y="150" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="810" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="810" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="810" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="810" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="810" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="810" y="165" width="11" height="11" fill="#3e6aa7" />
   <rect class="grid-cell" x="810" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="825" y="90" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="825" y="105" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="825" y="120" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="825" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="825" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="825" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="825" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="825" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="825" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="825" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="825" y="180" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="840" y="90" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="840" y="105" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="840" y="120" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="840" y="135" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="840" y="150" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="840" y="165" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="825" y="165" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="825" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="840" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="840" y="105" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="840" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="840" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="840" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="840" y="165" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="840" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="855" y="90" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="855" y="105" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="855" y="120" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="855" y="135" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="855" y="150" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="855" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="855" y="180" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="870" y="90" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="870" y="105" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="870" y="120" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="855" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="855" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="855" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="855" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="855" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="855" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="855" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="870" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="870" y="105" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="870" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="870" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="870" y="150" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="870" y="165" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="870" y="180" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="885" y="90" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="885" y="105" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="885" y="120" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="870" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="870" y="165" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="870" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="885" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="885" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="885" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="885" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="885" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="885" y="165" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="885" y="180" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="900" y="90" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="885" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="885" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="900" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="900" y="105" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="900" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="900" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="900" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="900" y="150" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="900" y="165" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="900" y="180" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="915" y="90" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="915" y="105" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="915" y="120" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="900" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="900" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="900" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="915" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="915" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="915" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="915" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="915" y="150" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="915" y="165" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="915" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="930" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="930" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="930" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="930" y="120" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="930" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="930" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="930" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="930" y="165" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="930" y="180" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="945" y="90" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="930" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="930" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="945" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="945" y="105" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="945" y="120" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="945" y="120" width="11" height="11" fill="#5f95dd" />
   <rect class="grid-cell" x="945" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="945" y="150" width="11" height="11" fill="#3e6aa7" />
-  <rect class="grid-cell" x="945" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="945" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="945" y="165" width="11" height="11" fill="#3e6aa7" />
   <rect class="grid-cell" x="945" y="180" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="960" y="90" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="960" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="960" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="960" y="105" width="11" height="11" fill="#30476e" />
   <rect class="grid-cell" x="960" y="120" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="960" y="135" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="960" y="150" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="960" y="165" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="960" y="180" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="975" y="90" width="11" height="11" fill="#30476e" />
-  <rect class="grid-cell" x="975" y="105" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="975" y="120" width="11" height="11" fill="#90c2ff" />
-  <rect class="grid-cell" x="975" y="135" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="975" y="150" width="11" height="11" fill="#5f95dd" />
-  <rect class="grid-cell" x="975" y="165" width="11" height="11" fill="#1a2030" />
-  <rect class="grid-cell" x="975" y="180" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="960" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="960" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="975" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="975" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="975" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="975" y="135" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="975" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="975" y="165" width="11" height="11" fill="#90c2ff" />
   <g class="scanline">
     <rect x="185" y="80" width="815" height="8" fill="#8cc1ff" fill-opacity="0.18" />
   </g>
@@ -437,7 +436,7 @@
     </g>
     <text x="0" y="106" class="t-dk">gorilla barrel smash mode</text>
   </g>
-  <path id="p0" d="M 132 123 C 155.8 79.0, 179.6 159.0, 200 185" fill="none" stroke="none"/>
+  <path id="p0" d="M 132 123 C 155.8 79.0, 179.6 144.0, 200 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -455,14 +454,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.00000;0.00164;0.00712;0.00913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="195" y="180" width="11" height="11" fill="#90c2ff" opacity="1">
+  <rect x="195" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.00712;0.00821;0.00913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="195" y="180" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="195" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.00712;0.00821;0.00913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(200 185)" opacity="0">
+  <g class="impact" transform="translate(200 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.00712;0.00821;0.00913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.00712;0.00821;0.00913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -480,7 +479,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.00712;0.00821;0.00913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p1" d="M 132 123 C 176.8 79.0, 221.6 129.0, 260 155" fill="none" stroke="none"/>
+  <path id="p1" d="M 132 123 C 161.1 79.0, 190.1 144.0, 215 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -498,14 +497,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.02778;0.02942;0.03490;0.03690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="255" y="150" width="11" height="11" fill="#3e6aa7" opacity="1">
+  <rect x="210" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.03490;0.03599;0.03690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="255" y="150" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="210" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.03490;0.03599;0.03690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(260 155)" opacity="0">
+  <g class="impact" transform="translate(215 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.03490;0.03599;0.03690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.03490;0.03599;0.03690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -523,7 +522,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.03490;0.03599;0.03690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p2" d="M 132 123 C 192.6 79.0, 253.1 159.0, 305 185" fill="none" stroke="none"/>
+  <path id="p2" d="M 132 123 C 166.3 79.0, 200.6 144.0, 230 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -541,14 +540,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.05556;0.05720;0.06267;0.06468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="300" y="180" width="11" height="11" fill="#3e6aa7" opacity="1">
+  <rect x="225" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.06267;0.06377;0.06468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="300" y="180" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="225" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.06267;0.06377;0.06468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(305 185)" opacity="0">
+  <g class="impact" transform="translate(230 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.06267;0.06377;0.06468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.06267;0.06377;0.06468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -566,7 +565,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.06267;0.06377;0.06468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p3" d="M 132 123 C 218.8 79.0, 305.6 69.0, 380 95" fill="none" stroke="none"/>
+  <path id="p3" d="M 132 123 C 176.8 79.0, 221.6 144.0, 260 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -584,14 +583,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08333;0.08498;0.09045;0.09246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="375" y="90" width="11" height="11" fill="#5f95dd" opacity="1">
+  <rect x="255" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.09045;0.09155;0.09246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="375" y="90" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="255" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.09045;0.09155;0.09246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(380 95)" opacity="0">
+  <g class="impact" transform="translate(260 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.09045;0.09155;0.09246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.09045;0.09155;0.09246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -609,7 +608,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.09045;0.09155;0.09246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p4" d="M 132 123 C 224.1 79.0, 316.1 159.0, 395 185" fill="none" stroke="none"/>
+  <path id="p4" d="M 132 123 C 182.1 79.0, 232.1 144.0, 275 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -627,14 +626,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.11111;0.11275;0.11823;0.12024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="390" y="180" width="11" height="11" fill="#30476e" opacity="1">
+  <rect x="270" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.11823;0.11933;0.12024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="390" y="180" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="270" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.11823;0.11933;0.12024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(395 185)" opacity="0">
+  <g class="impact" transform="translate(275 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.11823;0.11933;0.12024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.11823;0.11933;0.12024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -652,7 +651,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.11823;0.11933;0.12024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p5" d="M 132 123 C 239.8 79.0, 347.6 69.0, 440 95" fill="none" stroke="none"/>
+  <path id="p5" d="M 132 123 C 187.3 79.0, 242.6 144.0, 290 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -670,14 +669,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.13889;0.14053;0.14601;0.14802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="435" y="90" width="11" height="11" fill="#90c2ff" opacity="1">
+  <rect x="285" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.14601;0.14710;0.14802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="435" y="90" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="285" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.14601;0.14710;0.14802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(440 95)" opacity="0">
+  <g class="impact" transform="translate(290 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.14601;0.14710;0.14802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.14601;0.14710;0.14802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -695,7 +694,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.14601;0.14710;0.14802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p6" d="M 132 123 C 245.1 79.0, 358.1 129.0, 455 155" fill="none" stroke="none"/>
+  <path id="p6" d="M 132 123 C 192.6 79.0, 253.1 144.0, 305 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -713,14 +712,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.16667;0.16831;0.17379;0.17579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="450" y="150" width="11" height="11" fill="#5f95dd" opacity="1">
+  <rect x="300" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.17379;0.17488;0.17579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="450" y="150" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="300" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.17379;0.17488;0.17579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(455 155)" opacity="0">
+  <g class="impact" transform="translate(305 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.17379;0.17488;0.17579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.17379;0.17488;0.17579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -738,7 +737,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.17379;0.17488;0.17579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p7" d="M 132 123 C 250.3 79.0, 368.6 114.0, 470 140" fill="none" stroke="none"/>
+  <path id="p7" d="M 132 123 C 229.3 79.0, 326.6 144.0, 410 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -756,14 +755,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.19444;0.19609;0.20156;0.20357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="465" y="135" width="11" height="11" fill="#90c2ff" opacity="1">
+  <rect x="405" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.20156;0.20266;0.20357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="465" y="135" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="405" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.20156;0.20266;0.20357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(470 140)" opacity="0">
+  <g class="impact" transform="translate(410 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.20156;0.20266;0.20357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.20156;0.20266;0.20357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -781,7 +780,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.20156;0.20266;0.20357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p8" d="M 132 123 C 260.8 79.0, 389.6 69.0, 500 95" fill="none" stroke="none"/>
+  <path id="p8" d="M 132 123 C 234.6 79.0, 337.1 144.0, 425 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -799,14 +798,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.22222;0.22387;0.22934;0.23135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="495" y="90" width="11" height="11" fill="#30476e" opacity="1">
+  <rect x="420" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.22934;0.23044;0.23135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="495" y="90" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="420" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.22934;0.23044;0.23135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(500 95)" opacity="0">
+  <g class="impact" transform="translate(425 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.22934;0.23044;0.23135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.22934;0.23044;0.23135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -824,7 +823,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.22934;0.23044;0.23135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p9" d="M 132 123 C 271.3 79.0, 410.6 99.0, 530 125" fill="none" stroke="none"/>
+  <path id="p9" d="M 132 123 C 239.8 79.0, 347.6 144.0, 440 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -842,14 +841,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25000;0.25164;0.25712;0.25913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="525" y="120" width="11" height="11" fill="#3e6aa7" opacity="1">
+  <rect x="435" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.25712;0.25821;0.25913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="525" y="120" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="435" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.25712;0.25821;0.25913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(530 125)" opacity="0">
+  <g class="impact" transform="translate(440 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.25712;0.25821;0.25913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.25712;0.25821;0.25913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -867,7 +866,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.25712;0.25821;0.25913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p10" d="M 132 123 C 276.5 79.0, 421.1 69.0, 545 95" fill="none" stroke="none"/>
+  <path id="p10" d="M 132 123 C 245.1 79.0, 358.1 144.0, 455 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -885,14 +884,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.27778;0.27942;0.28490;0.28690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="540" y="90" width="11" height="11" fill="#5f95dd" opacity="1">
+  <rect x="450" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.28490;0.28599;0.28690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="540" y="90" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="450" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.28490;0.28599;0.28690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(545 95)" opacity="0">
+  <g class="impact" transform="translate(455 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.28490;0.28599;0.28690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.28490;0.28599;0.28690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -910,7 +909,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.28490;0.28599;0.28690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p11" d="M 132 123 C 281.8 79.0, 431.6 99.0, 560 125" fill="none" stroke="none"/>
+  <path id="p11" d="M 132 123 C 250.3 79.0, 368.6 144.0, 470 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -928,14 +927,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.30556;0.30720;0.31267;0.31468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="555" y="120" width="11" height="11" fill="#5f95dd" opacity="1">
+  <rect x="465" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.31267;0.31377;0.31468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="555" y="120" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="465" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.31267;0.31377;0.31468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(560 125)" opacity="0">
+  <g class="impact" transform="translate(470 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.31267;0.31377;0.31468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.31267;0.31377;0.31468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -953,7 +952,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.31267;0.31377;0.31468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p12" d="M 132 123 C 292.3 79.0, 452.6 99.0, 590 125" fill="none" stroke="none"/>
+  <path id="p12" d="M 132 123 C 255.6 79.0, 379.1 144.0, 485 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -971,14 +970,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33333;0.33498;0.34045;0.34246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="585" y="120" width="11" height="11" fill="#30476e" opacity="1">
+  <rect x="480" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.34045;0.34155;0.34246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="585" y="120" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="480" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.34045;0.34155;0.34246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(590 125)" opacity="0">
+  <g class="impact" transform="translate(485 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.34045;0.34155;0.34246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.34045;0.34155;0.34246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -996,7 +995,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.34045;0.34155;0.34246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p13" d="M 132 123 C 297.5 79.0, 463.1 129.0, 605 155" fill="none" stroke="none"/>
+  <path id="p13" d="M 132 123 C 276.5 79.0, 421.1 144.0, 545 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1014,14 +1013,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.36111;0.36275;0.36823;0.37024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="600" y="150" width="11" height="11" fill="#5f95dd" opacity="1">
+  <rect x="540" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.36823;0.36933;0.37024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="600" y="150" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="540" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.36823;0.36933;0.37024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(605 155)" opacity="0">
+  <g class="impact" transform="translate(545 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.36823;0.36933;0.37024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.36823;0.36933;0.37024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1039,7 +1038,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.36823;0.36933;0.37024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p14" d="M 132 123 C 302.8 79.0, 473.6 114.0, 620 140" fill="none" stroke="none"/>
+  <path id="p14" d="M 132 123 C 281.8 79.0, 431.6 144.0, 560 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1057,14 +1056,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.38889;0.39053;0.39601;0.39802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="615" y="135" width="11" height="11" fill="#30476e" opacity="1">
+  <rect x="555" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.39601;0.39710;0.39802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="615" y="135" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="555" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.39601;0.39710;0.39802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(620 140)" opacity="0">
+  <g class="impact" transform="translate(560 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.39601;0.39710;0.39802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.39601;0.39710;0.39802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1082,7 +1081,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.39601;0.39710;0.39802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p15" d="M 132 123 C 308.0 79.0, 484.1 99.0, 635 125" fill="none" stroke="none"/>
+  <path id="p15" d="M 132 123 C 287.0 79.0, 442.1 144.0, 575 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1100,14 +1099,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.41667;0.41831;0.42379;0.42579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="630" y="120" width="11" height="11" fill="#90c2ff" opacity="1">
+  <rect x="570" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.42379;0.42488;0.42579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="630" y="120" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="570" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.42379;0.42488;0.42579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(635 125)" opacity="0">
+  <g class="impact" transform="translate(575 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.42379;0.42488;0.42579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.42379;0.42488;0.42579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1125,7 +1124,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.42379;0.42488;0.42579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p16" d="M 132 123 C 313.3 79.0, 494.6 129.0, 650 155" fill="none" stroke="none"/>
+  <path id="p16" d="M 132 123 C 292.3 79.0, 452.6 144.0, 590 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1143,14 +1142,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.44444;0.44609;0.45156;0.45357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="645" y="150" width="11" height="11" fill="#90c2ff" opacity="1">
+  <rect x="585" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45156;0.45266;0.45357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="645" y="150" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="585" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.45156;0.45266;0.45357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(650 155)" opacity="0">
+  <g class="impact" transform="translate(590 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.45156;0.45266;0.45357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.45156;0.45266;0.45357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1168,7 +1167,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.45156;0.45266;0.45357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p17" d="M 132 123 C 323.8 79.0, 515.6 69.0, 680 95" fill="none" stroke="none"/>
+  <path id="p17" d="M 132 123 C 297.5 79.0, 463.1 144.0, 605 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1186,14 +1185,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.47222;0.47387;0.47934;0.48135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="675" y="90" width="11" height="11" fill="#90c2ff" opacity="1">
+  <rect x="600" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.47934;0.48044;0.48135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="675" y="90" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="600" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.47934;0.48044;0.48135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(680 95)" opacity="0">
+  <g class="impact" transform="translate(605 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.47934;0.48044;0.48135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.47934;0.48044;0.48135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1211,7 +1210,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.47934;0.48044;0.48135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p18" d="M 132 123 C 329.0 79.0, 526.1 99.0, 695 125" fill="none" stroke="none"/>
+  <path id="p18" d="M 132 123 C 308.0 79.0, 484.1 144.0, 635 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1229,14 +1228,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.50000;0.50164;0.50712;0.50913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="690" y="120" width="11" height="11" fill="#30476e" opacity="1">
+  <rect x="630" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.50712;0.50821;0.50913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="690" y="120" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="630" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.50712;0.50821;0.50913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(695 125)" opacity="0">
+  <g class="impact" transform="translate(635 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.50712;0.50821;0.50913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.50712;0.50821;0.50913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1254,7 +1253,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.50712;0.50821;0.50913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p19" d="M 132 123 C 334.3 79.0, 536.6 84.0, 710 110" fill="none" stroke="none"/>
+  <path id="p19" d="M 132 123 C 318.5 79.0, 505.1 144.0, 665 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1272,14 +1271,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.52778;0.52942;0.53490;0.53690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="705" y="105" width="11" height="11" fill="#90c2ff" opacity="1">
+  <rect x="660" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.53490;0.53599;0.53690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="705" y="105" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="660" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.53490;0.53599;0.53690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(710 110)" opacity="0">
+  <g class="impact" transform="translate(665 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.53490;0.53599;0.53690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.53490;0.53599;0.53690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1297,7 +1296,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.53490;0.53599;0.53690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p20" d="M 132 123 C 339.5 79.0, 547.1 84.0, 725 110" fill="none" stroke="none"/>
+  <path id="p20" d="M 132 123 C 323.8 79.0, 515.6 144.0, 680 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1315,14 +1314,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.55556;0.55720;0.56267;0.56468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="720" y="105" width="11" height="11" fill="#3e6aa7" opacity="1">
+  <rect x="675" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.56267;0.56377;0.56468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="720" y="105" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="675" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.56267;0.56377;0.56468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(725 110)" opacity="0">
+  <g class="impact" transform="translate(680 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.56267;0.56377;0.56468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.56267;0.56377;0.56468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1340,7 +1339,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.56267;0.56377;0.56468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p21" d="M 132 123 C 344.8 79.0, 557.6 129.0, 740 155" fill="none" stroke="none"/>
+  <path id="p21" d="M 132 123 C 339.5 79.0, 547.1 144.0, 725 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1358,14 +1357,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.58333;0.58498;0.59045;0.59246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="735" y="150" width="11" height="11" fill="#5f95dd" opacity="1">
+  <rect x="720" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.59045;0.59155;0.59246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="735" y="150" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="720" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.59045;0.59155;0.59246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(740 155)" opacity="0">
+  <g class="impact" transform="translate(725 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.59045;0.59155;0.59246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.59045;0.59155;0.59246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1383,7 +1382,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.59045;0.59155;0.59246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p22" d="M 132 123 C 350.0 79.0, 568.1 159.0, 755 185" fill="none" stroke="none"/>
+  <path id="p22" d="M 132 123 C 344.8 79.0, 557.6 144.0, 740 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1401,14 +1400,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.61111;0.61275;0.61823;0.62024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="750" y="180" width="11" height="11" fill="#30476e" opacity="1">
+  <rect x="735" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.61823;0.61933;0.62024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="750" y="180" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="735" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.61823;0.61933;0.62024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(755 185)" opacity="0">
+  <g class="impact" transform="translate(740 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.61823;0.61933;0.62024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.61823;0.61933;0.62024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1426,7 +1425,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.61823;0.61933;0.62024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p23" d="M 132 123 C 360.5 79.0, 589.1 114.0, 785 140" fill="none" stroke="none"/>
+  <path id="p23" d="M 132 123 C 350.0 79.0, 568.1 144.0, 755 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1444,14 +1443,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.63889;0.64053;0.64601;0.64802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="780" y="135" width="11" height="11" fill="#3e6aa7" opacity="1">
+  <rect x="750" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.64601;0.64710;0.64802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="780" y="135" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="750" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.64601;0.64710;0.64802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(785 140)" opacity="0">
+  <g class="impact" transform="translate(755 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.64601;0.64710;0.64802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.64601;0.64710;0.64802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1469,7 +1468,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.64601;0.64710;0.64802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p24" d="M 132 123 C 365.8 79.0, 599.6 129.0, 800 155" fill="none" stroke="none"/>
+  <path id="p24" d="M 132 123 C 365.8 79.0, 599.6 144.0, 800 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1487,14 +1486,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66667;0.66831;0.67379;0.67579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="795" y="150" width="11" height="11" fill="#5f95dd" opacity="1">
+  <rect x="795" y="165" width="11" height="11" fill="#5f95dd" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.67379;0.67488;0.67579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="795" y="150" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="795" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.67379;0.67488;0.67579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(800 155)" opacity="0">
+  <g class="impact" transform="translate(800 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.67379;0.67488;0.67579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.67379;0.67488;0.67579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1512,7 +1511,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.67379;0.67488;0.67579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p25" d="M 132 123 C 371.0 79.0, 610.1 114.0, 815 140" fill="none" stroke="none"/>
+  <path id="p25" d="M 132 123 C 371.0 79.0, 610.1 144.0, 815 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1530,14 +1529,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.69444;0.69609;0.70156;0.70357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="810" y="135" width="11" height="11" fill="#3e6aa7" opacity="1">
+  <rect x="810" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.70156;0.70266;0.70357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="810" y="135" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="810" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.70156;0.70266;0.70357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(815 140)" opacity="0">
+  <g class="impact" transform="translate(815 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.70156;0.70266;0.70357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.70156;0.70266;0.70357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1555,7 +1554,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.70156;0.70266;0.70357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p26" d="M 132 123 C 376.3 79.0, 620.6 99.0, 830 125" fill="none" stroke="none"/>
+  <path id="p26" d="M 132 123 C 376.3 79.0, 620.6 144.0, 830 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1573,14 +1572,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.72222;0.72387;0.72934;0.73135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="825" y="120" width="11" height="11" fill="#5f95dd" opacity="1">
+  <rect x="825" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.72934;0.73044;0.73135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="825" y="120" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="825" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.72934;0.73044;0.73135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(830 125)" opacity="0">
+  <g class="impact" transform="translate(830 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.72934;0.73044;0.73135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.72934;0.73044;0.73135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1598,7 +1597,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.72934;0.73044;0.73135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p27" d="M 132 123 C 381.5 79.0, 631.1 99.0, 845 125" fill="none" stroke="none"/>
+  <path id="p27" d="M 132 123 C 381.5 79.0, 631.1 84.0, 845 110" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1616,14 +1615,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.75000;0.75164;0.75712;0.75913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="840" y="120" width="11" height="11" fill="#5f95dd" opacity="1">
+  <rect x="840" y="105" width="11" height="11" fill="#90c2ff" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.75712;0.75821;0.75913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="840" y="120" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="840" y="105" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.75712;0.75821;0.75913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(845 125)" opacity="0">
+  <g class="impact" transform="translate(845 110)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.75712;0.75821;0.75913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.75712;0.75821;0.75913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1641,7 +1640,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.75712;0.75821;0.75913;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p28" d="M 132 123 C 386.8 79.0, 641.6 69.0, 860 95" fill="none" stroke="none"/>
+  <path id="p28" d="M 132 123 C 381.5 79.0, 631.1 144.0, 845 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1659,14 +1658,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.77778;0.77942;0.78490;0.78690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="855" y="90" width="11" height="11" fill="#30476e" opacity="1">
+  <rect x="840" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.78490;0.78599;0.78690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="855" y="90" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="840" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.78490;0.78599;0.78690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(860 95)" opacity="0">
+  <g class="impact" transform="translate(845 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.78490;0.78599;0.78690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.78490;0.78599;0.78690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1684,7 +1683,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.78490;0.78599;0.78690;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p29" d="M 132 123 C 386.8 79.0, 641.6 159.0, 860 185" fill="none" stroke="none"/>
+  <path id="p29" d="M 132 123 C 386.8 79.0, 641.6 144.0, 860 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1702,14 +1701,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.80556;0.80720;0.81267;0.81468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="855" y="180" width="11" height="11" fill="#90c2ff" opacity="1">
+  <rect x="855" y="165" width="11" height="11" fill="#90c2ff" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.81267;0.81377;0.81468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="855" y="180" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="855" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.81267;0.81377;0.81468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(860 185)" opacity="0">
+  <g class="impact" transform="translate(860 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.81267;0.81377;0.81468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.81267;0.81377;0.81468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1727,7 +1726,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.81267;0.81377;0.81468;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p30" d="M 132 123 C 392.1 79.0, 652.1 159.0, 875 185" fill="none" stroke="none"/>
+  <path id="p30" d="M 132 123 C 392.1 79.0, 652.1 84.0, 875 110" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1745,14 +1744,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.83333;0.83498;0.84045;0.84246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="870" y="180" width="11" height="11" fill="#5f95dd" opacity="1">
+  <rect x="870" y="105" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.84045;0.84155;0.84246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="870" y="180" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="870" y="105" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.84045;0.84155;0.84246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(875 185)" opacity="0">
+  <g class="impact" transform="translate(875 110)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.84045;0.84155;0.84246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.84045;0.84155;0.84246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1770,7 +1769,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.84045;0.84155;0.84246;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p31" d="M 132 123 C 397.3 79.0, 662.6 159.0, 890 185" fill="none" stroke="none"/>
+  <path id="p31" d="M 132 123 C 392.1 79.0, 652.1 144.0, 875 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1788,14 +1787,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.86111;0.86275;0.86823;0.87024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="885" y="180" width="11" height="11" fill="#30476e" opacity="1">
+  <rect x="870" y="165" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.86823;0.86933;0.87024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="885" y="180" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="870" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.86823;0.86933;0.87024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(890 185)" opacity="0">
+  <g class="impact" transform="translate(875 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.86823;0.86933;0.87024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.86823;0.86933;0.87024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1813,7 +1812,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.86823;0.86933;0.87024;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p32" d="M 132 123 C 402.5 79.0, 673.1 144.0, 905 170" fill="none" stroke="none"/>
+  <path id="p32" d="M 132 123 C 418.3 79.0, 704.6 99.0, 950 125" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1831,14 +1830,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.88889;0.89053;0.89601;0.89802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="900" y="165" width="11" height="11" fill="#30476e" opacity="1">
+  <rect x="945" y="120" width="11" height="11" fill="#5f95dd" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.89601;0.89710;0.89802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="900" y="165" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="945" y="120" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.89601;0.89710;0.89802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(905 170)" opacity="0">
+  <g class="impact" transform="translate(950 125)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.89601;0.89710;0.89802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.89601;0.89710;0.89802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1856,7 +1855,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.89601;0.89710;0.89802;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p33" d="M 132 123 C 413.0 79.0, 694.1 69.0, 935 95" fill="none" stroke="none"/>
+  <path id="p33" d="M 132 123 C 418.3 79.0, 704.6 144.0, 950 170" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1874,14 +1873,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.91667;0.91831;0.92379;0.92579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="930" y="90" width="11" height="11" fill="#5f95dd" opacity="1">
+  <rect x="945" y="165" width="11" height="11" fill="#3e6aa7" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.92379;0.92488;0.92579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="930" y="90" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="945" y="165" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.92379;0.92488;0.92579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(935 95)" opacity="0">
+  <g class="impact" transform="translate(950 170)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.92379;0.92488;0.92579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.92379;0.92488;0.92579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1899,7 +1898,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.92379;0.92488;0.92579;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p34" d="M 132 123 C 418.3 79.0, 704.6 99.0, 950 125" fill="none" stroke="none"/>
+  <path id="p34" d="M 132 123 C 423.5 79.0, 715.1 84.0, 965 110" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1917,14 +1916,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.94444;0.94609;0.95156;0.95357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="945" y="120" width="11" height="11" fill="#90c2ff" opacity="1">
+  <rect x="960" y="105" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.95156;0.95266;0.95357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="945" y="120" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="960" y="105" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.95156;0.95266;0.95357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(950 125)" opacity="0">
+  <g class="impact" transform="translate(965 110)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.95156;0.95266;0.95357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.95156;0.95266;0.95357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
@@ -1942,7 +1941,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.95156;0.95266;0.95357;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
-  <path id="p35" d="M 132 123 C 428.8 79.0, 725.6 69.0, 980 95" fill="none" stroke="none"/>
+  <path id="p35" d="M 132 123 C 428.8 79.0, 725.6 114.0, 980 140" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
     <g>
       <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
@@ -1960,14 +1959,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.97222;0.97387;0.97934;0.98135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="975" y="90" width="11" height="11" fill="#30476e" opacity="1">
+  <rect x="975" y="135" width="11" height="11" fill="#30476e" opacity="1">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.97934;0.98044;0.98135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
-  <rect x="975" y="90" width="11" height="11" fill="#0d1117" opacity="0">
+  <rect x="975" y="135" width="11" height="11" fill="#0d1117" opacity="0">
     <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.97934;0.98044;0.98135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
-  <g class="impact" transform="translate(980 95)" opacity="0">
+  <g class="impact" transform="translate(980 140)" opacity="0">
     <circle r="1" fill="#ffe8a6">
       <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;0.97934;0.98044;0.98135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.97934;0.98044;0.98135;1" dur="126.00s" begin="0s" repeatCount="indefinite"/>
