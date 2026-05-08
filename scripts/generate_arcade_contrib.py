@@ -201,8 +201,14 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
                 }
             )
 
-    # Throw at every field, but globally throttled to one barrel every 0.7s.
-    target_cells = list(cells)
+    # Throw only at active contribution cells to reduce SVG load.
+    target_cells = [c for c in cells if int(c["count"]) > 0]
+    if not target_cells:
+        target_cells = cells[:1]
+    max_targets = 36
+    if len(target_cells) > max_targets:
+        step = len(target_cells) / max_targets
+        target_cells = [target_cells[int(i * step)] for i in range(max_targets)]
 
     title = f"{login}'s Arcade Contribution Arena"
     generated_on = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
@@ -321,8 +327,9 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
 
     throw_start_x = 132
     throw_start_y = 123
-    interval = 0.7
-    travel = 0.62
+    # One barrel at a time with a much longer cooldown for smoother rendering.
+    interval = 3.5
+    travel = 1.15
     cycle = max(interval * len(target_cells), interval + 0.01)
 
     for idx, target in enumerate(target_cells):

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="96" viewBox="0 0 760 96" role="img" aria-label="Aleksandar Nikolic name animation">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="96" viewBox="0 0 760 96" role="img" aria-label="Aleksandar Nikolic">
   <defs>
     <style>
       .name {
@@ -8,14 +8,8 @@
       }
     </style>
   </defs>
-
-  <text class="name" x="24" y="52" opacity="1">
-    Aleksandar Nikolic
-    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="6s" repeatCount="indefinite"/>
-  </text>
-
-  <text class="name" x="24" y="52" opacity="0">
-    &#x0410;&#x043B;&#x0435;&#x043A;&#x0441;&#x0430;&#x043D;&#x0434;&#x0430;&#x0440; &#x041D;&#x0438;&#x043A;&#x043E;&#x043B;&#x0438;&#x045B;
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.5;0.95;1" dur="6s" repeatCount="indefinite"/>
-  </text>
+  <g transform="translate(0 0)">
+    <text class="name" x="24" y="52">Aleksandar Nikolic</text>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0;0 2;0 0" dur="3.6s" repeatCount="indefinite"/>
+  </g>
 </svg>
