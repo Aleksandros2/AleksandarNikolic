@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import base64
 import datetime as dt
 import json
 import os
@@ -71,6 +72,14 @@ def level_for_count(count: int, max_count: int) -> int:
     return 4
 
 
+def load_image_data_uri(path: pathlib.Path) -> str:
+    if not path.exists():
+        return ""
+    mime = "image/png" if path.suffix.lower() == ".png" else "image/jpeg"
+    b64 = base64.b64encode(path.read_bytes()).decode("ascii")
+    return f"data:{mime};base64,{b64}"
+
+
 def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> None:
     weeks = calendar.get("weeks", [])
     total = int(calendar.get("totalContributions", 0))
@@ -123,6 +132,7 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
 
     title = f"{login}'s Arcade Contribution Arena"
     generated_on = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+    donkey_data_uri = load_image_data_uri(pathlib.Path("assets/donkeyK.png"))
 
     pieces = []
     pieces.append(
@@ -152,6 +162,9 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
       }}
       .barrel {{
         filter: drop-shadow(0 0 4px rgba(232, 167, 96, 0.45));
+      }}
+      .barrel-band {{
+        fill: #6d3f22;
       }}
       .impact {{
         transform-origin: center;
@@ -189,8 +202,20 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
   </g>
 
   <g transform="translate(34 105)">
-    <rect x="0" y="70" width="120" height="8" fill="#2a456d" rx="4"/>
-    <g class="gorilla" transform="translate(8 10)">
+    <rect x="0" y="78" width="132" height="10" fill="#2a456d" rx="4"/>
+"""
+    )
+
+    if donkey_data_uri:
+        pieces.append(
+            f"""    <g class="gorilla" transform="translate(4 0)">
+      <image href="{donkey_data_uri}" x="0" y="0" width="124" height="92" preserveAspectRatio="xMidYMid meet"/>
+    </g>
+"""
+        )
+    else:
+        pieces.append(
+            """    <g class="gorilla" transform="translate(8 10)">
       <ellipse cx="45" cy="50" rx="24" ry="18" fill="#6b4732"/>
       <circle cx="43" cy="26" r="15" fill="#6b4732"/>
       <circle cx="36" cy="24" r="3" fill="#f5d6ba"/>
@@ -201,13 +226,17 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
       <rect x="28" y="63" width="12" height="14" rx="5" fill="#5d3d2d"/>
       <rect x="48" y="63" width="12" height="14" rx="5" fill="#5d3d2d"/>
     </g>
-    <text x="0" y="96" class="t-mini">retro gorilla mode</text>
+"""
+        )
+
+    pieces.append(
+        """    <text x="0" y="106" class="t-mini">gorilla barrel smash mode</text>
   </g>
 """
     )
 
-    throw_start_x = 116
-    throw_start_y = 126
+    throw_start_x = 132
+    throw_start_y = 123
     durations = [6.4, 6.4, 6.4, 6.4]
     begins = [0.0, 1.3, 2.8, 4.1]
 
@@ -222,8 +251,15 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
         pieces.append(
             f"""  <path id="{path_id}" d="M {throw_start_x} {throw_start_y} C {cx1:.1f} {cy1:.1f}, {cx2:.1f} {cy2:.1f}, {tx} {ty}" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
-    <circle r="5.4" fill="#a96d3a"/>
-    <circle r="3.1" fill="#d09156"/>
+    <g>
+      <ellipse cx="0" cy="0" rx="8" ry="5.4" fill="#8a4f2b"/>
+      <ellipse cx="0" cy="-2.2" rx="8" ry="2.2" fill="#b57243"/>
+      <rect x="-8" y="-2.2" width="16" height="4.4" fill="#ad6a3d"/>
+      <rect class="barrel-band" x="-8" y="-1.8" width="16" height="1"/>
+      <rect class="barrel-band" x="-8" y="0.8" width="16" height="1"/>
+      <ellipse cx="0" cy="2.2" rx="8" ry="2.2" fill="#91542f"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="0.65s" repeatCount="indefinite"/>
+    </g>
     <animateMotion dur="{durations[idx]}s" begin="{begins[idx]}s;{begins[idx]}s+{durations[idx]}s" repeatCount="indefinite" rotate="auto">
       <mpath href="#{path_id}" />
     </animateMotion>
