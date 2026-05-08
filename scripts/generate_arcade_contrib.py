@@ -2,6 +2,7 @@
 import base64
 import datetime as dt
 import json
+import math
 import os
 import pathlib
 import random
@@ -201,13 +202,13 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
             )
 
     non_zero = [c for c in cells if c["count"] > 0]
-    hot_cells = sorted(non_zero, key=lambda c: c["count"], reverse=True)[:4]
+    target_cells = list(non_zero)
 
     # If there are no contributions, we still animate toward symbolic targets.
-    if not hot_cells:
-        fallback_positions = [12, 23, 35, 47]
+    if not target_cells:
+        fallback_positions = [12, 16, 20, 24, 28, 32, 36, 40, 44, 48]
         for idx, col in enumerate(fallback_positions):
-            hot_cells.append(
+            target_cells.append(
                 {
                     "x": grid_x + col * (cell + gap),
                     "y": grid_y + (idx % 7) * (cell + gap),
@@ -298,7 +299,6 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
 
   <g transform="translate(34 105)">
     <rect x="-6" y="-6" width="138" height="102" fill="#0d1117" stroke="#30363d" rx="9"/>
-    <rect x="0" y="78" width="132" height="10" fill="#1f6feb" fill-opacity="0.35" rx="4"/>
 """
     )
 
@@ -334,17 +334,21 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
 
     throw_start_x = 132
     throw_start_y = 123
-    durations = [6.4, 6.4, 6.4, 6.4]
-    begins = [0.0, 1.3, 2.8, 4.1]
 
-    for idx, target in enumerate(hot_cells):
+    for idx, target in enumerate(target_cells):
         tx = target["x"] + cell // 2
         ty = target["y"] + cell // 2
+        dx = tx - throw_start_x
+        dy = ty - throw_start_y
+        dist = math.sqrt(dx * dx + dy * dy)
+        dur = 1.9 + min(2.8, dist / 165.0)
+        impact_t = dur * 0.92
         cx1 = throw_start_x + (tx - throw_start_x) * 0.35
         cy1 = throw_start_y - 44
         cx2 = throw_start_x + (tx - throw_start_x) * 0.7
         cy2 = ty - 26
         path_id = f"p{idx}"
+        cell_fill = palette[level_for_count(int(target["count"]), max_count)]
         pieces.append(
             f"""  <path id="{path_id}" d="M {throw_start_x} {throw_start_y} C {cx1:.1f} {cy1:.1f}, {cx2:.1f} {cy2:.1f}, {tx} {ty}" fill="none" stroke="none"/>
   <g class="barrel" opacity="0">
@@ -355,24 +359,35 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
       <rect class="barrel-band" x="-8" y="-1.8" width="16" height="1"/>
       <rect class="barrel-band" x="-8" y="0.8" width="16" height="1"/>
       <ellipse cx="0" cy="2.2" rx="8" ry="2.2" fill="#91542f"/>
-      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="0.65s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="0.55s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" additive="sum" type="scale" values="1;1;0.05" keyTimes="0;0.9;1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
     </g>
-    <animateMotion dur="{durations[idx]}s" begin="{begins[idx]}s;{begins[idx]}s+{durations[idx]}s" repeatCount="indefinite" rotate="auto">
+    <animateMotion dur="{dur:.2f}s" begin="0s" repeatCount="indefinite" rotate="auto">
       <mpath href="#{path_id}" />
     </animateMotion>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.9;1" dur="{durations[idx]}s" begin="{begins[idx]}s;{begins[idx]}s+{durations[idx]}s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.85;0.92;1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
   </g>
+
+  <rect x="{target["x"]}" y="{target["y"]}" width="{cell}" height="{cell}" fill="{cell_fill}" opacity="1">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.88;0.9;0.95;1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+  </rect>
 
   <g class="impact" transform="translate({tx} {ty})" opacity="0">
     <circle r="1" fill="#ffe8a6">
-      <animate attributeName="r" values="1;10;15" keyTimes="0;0.5;1" dur="0.45s" begin="{begins[idx] + durations[idx] * 0.88:.2f}s;{begins[idx] + durations[idx] * 0.88:.2f}s+{durations[idx]}s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="0.45s" begin="{begins[idx] + durations[idx] * 0.88:.2f}s;{begins[idx] + durations[idx] * 0.88:.2f}s+{durations[idx]}s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="1;11;16" keyTimes="0;0.45;1" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
     </circle>
     <line x1="-8" y1="-8" x2="8" y2="8" stroke="#ffd89a" stroke-width="1.2">
-      <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="{begins[idx] + durations[idx] * 0.88:.2f}s;{begins[idx] + durations[idx] * 0.88:.2f}s+{durations[idx]}s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
     </line>
     <line x1="8" y1="-8" x2="-8" y2="8" stroke="#ffd89a" stroke-width="1.2">
-      <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="{begins[idx] + durations[idx] * 0.88:.2f}s;{begins[idx] + durations[idx] * 0.88:.2f}s+{durations[idx]}s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="-10" x2="0" y2="10" stroke="#ffe2b4" stroke-width="1">
+      <animate attributeName="opacity" values="0;1;0" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
+    </line>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#ffe2b4" stroke-width="1">
+      <animate attributeName="opacity" values="0;1;0" dur="0.38s" begin="{impact_t:.2f}s;{impact_t:.2f}s+{dur:.2f}s" repeatCount="indefinite"/>
     </line>
   </g>
 """

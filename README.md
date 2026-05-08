@@ -1,4 +1,6 @@
-# Aleksandar Nikolic
+<p align="center">
+  <img src="./assets/name-shift.svg" alt="Aleksandar Nikolic animated name" />
+</p>
 
 <p align="center">
   <b>Building practical apps, clean UI, and fun developer experiences.</b>
