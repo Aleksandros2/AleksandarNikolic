@@ -8,6 +8,7 @@ import random
 import re
 import urllib.error
 import urllib.request
+from collections import Counter, deque
 from typing import Any
 
 try:
@@ -98,25 +99,67 @@ def build_clean_donkey_sprite(src: pathlib.Path, dst: pathlib.Path) -> pathlib.P
     img = Image.open(src).convert("RGBA")
     pix = img.load()
     width, height = img.size
+    visited = [[False for _ in range(width)] for _ in range(height)]
 
+    border_colors = []
+    for x in range(width):
+        border_colors.append(pix[x, 0])
+        border_colors.append(pix[x, height - 1])
     for y in range(height):
-        for x in range(width):
-            r, g, b, a = pix[x, y]
-            if a < 10:
-                pix[x, y] = (r, g, b, 0)
-                continue
+        border_colors.append(pix[0, y])
+        border_colors.append(pix[width - 1, y])
 
-            brightness = (r + g + b) / 3.0
-            max_diff = max(abs(r - g), abs(g - b), abs(r - b))
+    buckets: Counter[tuple[int, int, int]] = Counter()
+    for r, g, b, a in border_colors:
+        if a < 80:
+            continue
+        buckets[(r // 8, g // 8, b // 8)] += 1
 
-            # Remove bright, low-saturation checkerboard tiles.
-            if brightness > 190 and max_diff < 24:
-                pix[x, y] = (r, g, b, 0)
-            elif brightness > 155 and max_diff < 18:
-                # Soft edge fade around the removed background.
-                pix[x, y] = (r, g, b, int(a * 0.2))
-            else:
-                pix[x, y] = (r, g, b, a)
+    dominant = [k for k, _ in buckets.most_common(3)]
+    dominant_rgb = [(r * 8 + 4, g * 8 + 4, b * 8 + 4) for r, g, b in dominant]
+
+    def near_bg(r: int, g: int, b: int, a: int) -> bool:
+        if a < 50:
+            return True
+        if not dominant_rgb:
+            return False
+        max_diff = max(abs(r - g), abs(g - b), abs(r - b))
+        sat_like_bg = max_diff < 42
+        if not sat_like_bg:
+            return False
+        for br, bg, bb in dominant_rgb:
+            dist = abs(r - br) + abs(g - bg) + abs(b - bb)
+            if dist < 78:
+                return True
+        return False
+
+    q: deque[tuple[int, int]] = deque()
+
+    def enqueue_if_bg(x: int, y: int) -> None:
+        if x < 0 or x >= width or y < 0 or y >= height:
+            return
+        if visited[y][x]:
+            return
+        r, g, b, a = pix[x, y]
+        if near_bg(r, g, b, a):
+            visited[y][x] = True
+            q.append((x, y))
+
+    for x in range(width):
+        enqueue_if_bg(x, 0)
+        enqueue_if_bg(x, height - 1)
+    for y in range(height):
+        enqueue_if_bg(0, y)
+        enqueue_if_bg(width - 1, y)
+
+    while q:
+        x, y = q.popleft()
+        r, g, b, _ = pix[x, y]
+        pix[x, y] = (r, g, b, 0)
+        enqueue_if_bg(x + 1, y)
+        enqueue_if_bg(x - 1, y)
+        enqueue_if_bg(x, y + 1)
+        enqueue_if_bg(x, y - 1)
 
     dst.parent.mkdir(parents=True, exist_ok=True)
     img.save(dst, "PNG")
@@ -197,6 +240,7 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
       .t-main {{ font: 700 22px 'Segoe UI', 'Trebuchet MS', sans-serif; fill: #e8f0ff; }}
       .t-sub {{ font: 500 12px 'Segoe UI', 'Trebuchet MS', sans-serif; fill: #9db9e7; }}
       .t-mini {{ font: 500 10px 'Consolas', 'Courier New', monospace; fill: #7fa0d3; }}
+      .t-dk {{ font: 500 10px 'Consolas', 'Courier New', monospace; fill: #8b949e; }}
       .grid-cell {{ rx: 2; ry: 2; }}
       .scanline {{
         animation: scan 5s linear infinite;
@@ -253,7 +297,8 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
   </g>
 
   <g transform="translate(34 105)">
-    <rect x="0" y="78" width="132" height="10" fill="#2a456d" rx="4"/>
+    <rect x="-6" y="-6" width="138" height="102" fill="#0d1117" stroke="#30363d" rx="9"/>
+    <rect x="0" y="78" width="132" height="10" fill="#1f6feb" fill-opacity="0.35" rx="4"/>
 """
     )
 
@@ -282,7 +327,7 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
         )
 
     pieces.append(
-        """    <text x="0" y="106" class="t-mini">gorilla barrel smash mode</text>
+        """    <text x="0" y="106" class="t-dk">gorilla barrel smash mode</text>
   </g>
 """
     )
