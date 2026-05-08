@@ -1,0 +1,527 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1034" height="325" viewBox="0 0 1034 325" fill="none" role="img" aria-label="Aleksandros2's Arcade Contribution Arena">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060b16" />
+      <stop offset="100%" stop-color="#0f1a2f" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1d2f50" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#2e4b7b" stop-opacity="0.15" />
+    </linearGradient>
+    <style>
+      .t-main { font: 700 22px 'Segoe UI', 'Trebuchet MS', sans-serif; fill: #e8f0ff; }
+      .t-sub { font: 500 12px 'Segoe UI', 'Trebuchet MS', sans-serif; fill: #9db9e7; }
+      .t-mini { font: 500 10px 'Consolas', 'Courier New', monospace; fill: #7fa0d3; }
+      .grid-cell { rx: 2; ry: 2; }
+      .scanline {
+        animation: scan 5s linear infinite;
+      }
+      @keyframes scan {
+        0% { transform: translateY(-85px); opacity: 0; }
+        7% { opacity: .32; }
+        50% { opacity: .08; }
+        100% { transform: translateY(210px); opacity: 0; }
+      }
+      .barrel {
+        filter: drop-shadow(0 0 4px rgba(232, 167, 96, 0.45));
+      }
+      .impact {
+        transform-origin: center;
+      }
+      .gorilla {
+        animation: hop 2s ease-in-out infinite;
+      }
+      @keyframes hop {
+        0%,100% { transform: translateY(0); }
+        50% { transform: translateY(-3px); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1034" height="325" fill="url(#bg)" rx="16" />
+  <rect x="18" y="18" width="998" height="289" rx="12" stroke="#294268" stroke-opacity="0.6" />
+
+  <text x="28" y="42" class="t-main">Aleksandros2's Arcade Contribution Arena</text>
+  <text x="28" y="61" class="t-sub">Total contributions (last year): 958</text>
+  <text x="829" y="305" class="t-mini">auto-generated: 2026-05-08 16:14 UTC</text>
+
+  <rect x="183" y="76" width="819" height="133" fill="url(#panel)" rx="10" stroke="#355784" stroke-opacity="0.5"/>
+  <rect class="grid-cell" x="195" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="195" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="195" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="195" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="195" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="195" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="195" y="180" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="210" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="210" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="210" y="120" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="210" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="210" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="210" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="210" y="180" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="225" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="225" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="225" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="225" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="225" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="225" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="225" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="240" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="240" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="240" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="240" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="240" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="240" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="240" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="255" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="255" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="255" y="120" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="255" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="255" y="150" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="255" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="255" y="180" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="270" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="270" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="270" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="270" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="270" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="270" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="270" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="285" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="285" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="285" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="285" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="285" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="285" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="285" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="300" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="300" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="300" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="300" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="300" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="300" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="300" y="180" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="315" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="315" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="315" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="315" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="315" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="315" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="315" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="330" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="330" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="330" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="330" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="330" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="330" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="330" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="345" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="345" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="345" y="120" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="345" y="135" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="345" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="345" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="345" y="180" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="360" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="360" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="360" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="360" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="360" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="360" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="360" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="375" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="375" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="375" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="375" y="135" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="375" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="375" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="375" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="390" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="390" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="390" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="390" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="390" y="150" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="390" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="390" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="405" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="405" y="105" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="405" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="405" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="405" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="405" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="405" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="420" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="420" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="420" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="420" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="420" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="420" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="420" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="435" y="90" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="435" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="435" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="435" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="435" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="435" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="435" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="450" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="450" y="105" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="450" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="450" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="450" y="150" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="450" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="450" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="465" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="465" y="105" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="465" y="120" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="465" y="135" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="465" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="465" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="465" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="480" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="480" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="480" y="120" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="480" y="135" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="480" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="480" y="165" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="480" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="495" y="90" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="495" y="105" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="495" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="495" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="495" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="495" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="495" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="510" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="510" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="510" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="510" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="510" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="510" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="510" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="525" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="525" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="525" y="120" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="525" y="135" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="525" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="525" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="525" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="540" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="540" y="105" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="540" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="540" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="540" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="540" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="540" y="180" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="555" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="555" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="555" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="555" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="555" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="555" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="555" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="570" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="570" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="570" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="570" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="570" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="570" y="165" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="570" y="180" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="585" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="585" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="585" y="120" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="585" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="585" y="150" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="585" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="585" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="600" y="90" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="600" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="600" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="600" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="600" y="150" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="600" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="600" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="615" y="90" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="615" y="105" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="615" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="615" y="135" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="615" y="150" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="615" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="615" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="630" y="90" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="630" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="630" y="120" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="630" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="630" y="150" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="630" y="165" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="630" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="645" y="90" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="645" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="645" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="645" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="645" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="645" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="645" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="660" y="90" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="660" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="660" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="660" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="660" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="660" y="165" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="660" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="675" y="90" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="675" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="675" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="675" y="135" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="675" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="675" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="675" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="690" y="90" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="690" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="690" y="120" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="690" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="690" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="690" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="690" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="705" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="705" y="105" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="705" y="120" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="705" y="135" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="705" y="150" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="705" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="705" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="720" y="90" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="720" y="105" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="720" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="720" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="720" y="150" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="720" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="720" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="735" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="735" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="735" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="735" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="735" y="150" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="735" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="735" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="750" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="750" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="750" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="750" y="135" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="750" y="150" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="750" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="750" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="765" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="765" y="105" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="765" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="765" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="765" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="765" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="765" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="780" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="780" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="780" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="780" y="135" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="780" y="150" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="780" y="165" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="780" y="180" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="795" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="795" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="795" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="795" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="795" y="150" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="795" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="795" y="180" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="810" y="90" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="810" y="105" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="810" y="120" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="810" y="135" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="810" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="810" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="810" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="825" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="825" y="105" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="825" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="825" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="825" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="825" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="825" y="180" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="840" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="840" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="840" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="840" y="135" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="840" y="150" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="840" y="165" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="840" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="855" y="90" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="855" y="105" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="855" y="120" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="855" y="135" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="855" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="855" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="855" y="180" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="870" y="90" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="870" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="870" y="120" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="870" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="870" y="150" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="870" y="165" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="870" y="180" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="885" y="90" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="885" y="105" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="885" y="120" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="885" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="885" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="885" y="165" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="885" y="180" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="900" y="90" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="900" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="900" y="120" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="900" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="900" y="150" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="900" y="165" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="900" y="180" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="915" y="90" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="915" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="915" y="120" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="915" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="915" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="915" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="915" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="930" y="90" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="930" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="930" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="930" y="135" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="930" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="930" y="165" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="930" y="180" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="945" y="90" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="945" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="945" y="120" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="945" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="945" y="150" width="11" height="11" fill="#3e6aa7" />
+  <rect class="grid-cell" x="945" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="945" y="180" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="960" y="90" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="960" y="105" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="960" y="120" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="960" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="960" y="150" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="960" y="165" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="960" y="180" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="975" y="90" width="11" height="11" fill="#30476e" />
+  <rect class="grid-cell" x="975" y="105" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="975" y="120" width="11" height="11" fill="#90c2ff" />
+  <rect class="grid-cell" x="975" y="135" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="975" y="150" width="11" height="11" fill="#5f95dd" />
+  <rect class="grid-cell" x="975" y="165" width="11" height="11" fill="#1a2030" />
+  <rect class="grid-cell" x="975" y="180" width="11" height="11" fill="#90c2ff" />
+  <g class="scanline">
+    <rect x="185" y="80" width="815" height="8" fill="#8cc1ff" fill-opacity="0.18" />
+  </g>
+
+  <g transform="translate(34 105)">
+    <rect x="0" y="70" width="120" height="8" fill="#2a456d" rx="4"/>
+    <g class="gorilla" transform="translate(8 10)">
+      <ellipse cx="45" cy="50" rx="24" ry="18" fill="#6b4732"/>
+      <circle cx="43" cy="26" r="15" fill="#6b4732"/>
+      <circle cx="36" cy="24" r="3" fill="#f5d6ba"/>
+      <circle cx="49" cy="24" r="3" fill="#f5d6ba"/>
+      <ellipse cx="43" cy="31" rx="7" ry="5" fill="#f0cba5"/>
+      <rect x="15" y="43" width="14" height="8" rx="4" fill="#7d563f"/>
+      <rect x="61" y="43" width="14" height="8" rx="4" fill="#7d563f"/>
+      <rect x="28" y="63" width="12" height="14" rx="5" fill="#5d3d2d"/>
+      <rect x="48" y="63" width="12" height="14" rx="5" fill="#5d3d2d"/>
+    </g>
+    <text x="0" y="96" class="t-mini">retro gorilla mode</text>
+  </g>
+  <path id="p0" d="M 116 126 C 150.7 82.0, 185.3 159.0, 215 185" fill="none" stroke="none"/>
+  <g class="barrel" opacity="0">
+    <circle r="5.4" fill="#a96d3a"/>
+    <circle r="3.1" fill="#d09156"/>
+    <animateMotion dur="6.4s" begin="0.0s;0.0s+6.4s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#p0" />
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.9;1" dur="6.4s" begin="0.0s;0.0s+6.4s" repeatCount="indefinite"/>
+  </g>
+
+  <g class="impact" transform="translate(215 185)" opacity="0">
+    <circle r="1" fill="#ffe8a6">
+      <animate attributeName="r" values="1;10;15" keyTimes="0;0.5;1" dur="0.45s" begin="5.63s;5.63s+6.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="0.45s" begin="5.63s;5.63s+6.4s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="-8" y1="-8" x2="8" y2="8" stroke="#ffd89a" stroke-width="1.2">
+      <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="5.63s;5.63s+6.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="8" y1="-8" x2="-8" y2="8" stroke="#ffd89a" stroke-width="1.2">
+      <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="5.63s;5.63s+6.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <path id="p1" d="M 116 126 C 197.9 82.0, 279.8 99.0, 350 125" fill="none" stroke="none"/>
+  <g class="barrel" opacity="0">
+    <circle r="5.4" fill="#a96d3a"/>
+    <circle r="3.1" fill="#d09156"/>
+    <animateMotion dur="6.4s" begin="1.3s;1.3s+6.4s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#p1" />
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.9;1" dur="6.4s" begin="1.3s;1.3s+6.4s" repeatCount="indefinite"/>
+  </g>
+
+  <g class="impact" transform="translate(350 125)" opacity="0">
+    <circle r="1" fill="#ffe8a6">
+      <animate attributeName="r" values="1;10;15" keyTimes="0;0.5;1" dur="0.45s" begin="6.93s;6.93s+6.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="0.45s" begin="6.93s;6.93s+6.4s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="-8" y1="-8" x2="8" y2="8" stroke="#ffd89a" stroke-width="1.2">
+      <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="6.93s;6.93s+6.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="8" y1="-8" x2="-8" y2="8" stroke="#ffd89a" stroke-width="1.2">
+      <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="6.93s;6.93s+6.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <path id="p2" d="M 116 126 C 197.9 82.0, 279.8 114.0, 350 140" fill="none" stroke="none"/>
+  <g class="barrel" opacity="0">
+    <circle r="5.4" fill="#a96d3a"/>
+    <circle r="3.1" fill="#d09156"/>
+    <animateMotion dur="6.4s" begin="2.8s;2.8s+6.4s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#p2" />
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.9;1" dur="6.4s" begin="2.8s;2.8s+6.4s" repeatCount="indefinite"/>
+  </g>
+
+  <g class="impact" transform="translate(350 140)" opacity="0">
+    <circle r="1" fill="#ffe8a6">
+      <animate attributeName="r" values="1;10;15" keyTimes="0;0.5;1" dur="0.45s" begin="8.43s;8.43s+6.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="0.45s" begin="8.43s;8.43s+6.4s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="-8" y1="-8" x2="8" y2="8" stroke="#ffd89a" stroke-width="1.2">
+      <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="8.43s;8.43s+6.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="8" y1="-8" x2="-8" y2="8" stroke="#ffd89a" stroke-width="1.2">
+      <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="8.43s;8.43s+6.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <path id="p3" d="M 116 126 C 229.4 82.0, 342.8 69.0, 440 95" fill="none" stroke="none"/>
+  <g class="barrel" opacity="0">
+    <circle r="5.4" fill="#a96d3a"/>
+    <circle r="3.1" fill="#d09156"/>
+    <animateMotion dur="6.4s" begin="4.1s;4.1s+6.4s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#p3" />
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.9;1" dur="6.4s" begin="4.1s;4.1s+6.4s" repeatCount="indefinite"/>
+  </g>
+
+  <g class="impact" transform="translate(440 95)" opacity="0">
+    <circle r="1" fill="#ffe8a6">
+      <animate attributeName="r" values="1;10;15" keyTimes="0;0.5;1" dur="0.45s" begin="9.73s;9.73s+6.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="0.45s" begin="9.73s;9.73s+6.4s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="-8" y1="-8" x2="8" y2="8" stroke="#ffd89a" stroke-width="1.2">
+      <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="9.73s;9.73s+6.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="8" y1="-8" x2="-8" y2="8" stroke="#ffd89a" stroke-width="1.2">
+      <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="9.73s;9.73s+6.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</svg>
