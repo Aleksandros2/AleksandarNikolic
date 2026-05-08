@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/name-shift.svg" alt="Aleksandar Nikolic animated name" />
+  <img src="./assets/name-shift.svg" alt="Aleksandar Nikolic" />
 </p>
 
 <p align="center">
@@ -11,14 +11,8 @@
   <a href="https://github.com/Aleksandros2?tab=repositories">Projects</a>
 </p>
 
----
-
-## Arcade Contribution Arena
-
-Custom contribution animation (snake-free): a retro gorilla throws barrels at your active contribution blocks.
-
 <p align="center">
-  <img src="./assets/arcade-contrib.svg" alt="Arcade Contribution Arena" width="1034" />
+  <img src="./assets/arcade-contrib.svg" alt="Arcade Contribution Arena" width="100%" />
 </p>
 
 ---

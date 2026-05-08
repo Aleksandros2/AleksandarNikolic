@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1034" height="237" viewBox="0 0 1034 237" fill="none" role="img" aria-label="Aleksandros2's Arcade Contribution Arena">
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1034" height="292" viewBox="0 0 1034 292" fill="none" role="img" aria-label="Aleksandros2's Arcade Contribution Arena">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#060b16" />
@@ -9,8 +9,6 @@
       <stop offset="100%" stop-color="#2e4b7b" stop-opacity="0.15" />
     </linearGradient>
     <style>
-      .t-main { font: 700 22px 'Segoe UI', 'Trebuchet MS', sans-serif; fill: #e8f0ff; }
-      .t-sub { font: 500 12px 'Segoe UI', 'Trebuchet MS', sans-serif; fill: #9db9e7; }
       .t-mini { font: 500 10px 'Consolas', 'Courier New', monospace; fill: #7fa0d3; }
       .t-dk { font: 500 10px 'Consolas', 'Courier New', monospace; fill: #8b949e; }
       .grid-cell { rx: 2; ry: 2; }
@@ -46,13 +44,10 @@
     </style>
   </defs>
 
-  <rect width="1034" height="237" fill="url(#bg)" rx="16" />
-  <rect x="18" y="18" width="998" height="201" rx="12" stroke="#294268" stroke-opacity="0.6" />
+  <rect width="1034" height="292" fill="url(#bg)" rx="16" />
+  <rect x="18" y="18" width="998" height="256" rx="12" stroke="#294268" stroke-opacity="0.6" />
 
-  <text x="28" y="42" class="t-main">Aleksandros2's Arcade Contribution Arena</text>
-  <text x="28" y="61" class="t-sub">Total contributions (last year): 122</text>
-
-  <rect x="183" y="76" width="819" height="133" fill="url(#panel)" rx="10" stroke="#355784" stroke-opacity="0.5"/>
+  <rect x="183" y="68" width="819" height="156" fill="url(#panel)" rx="12" stroke="#355784" stroke-opacity="0.5"/>
   <rect class="grid-cell" x="195" y="90" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="195" y="105" width="11" height="11" fill="#1a2030" />
   <rect class="grid-cell" x="195" y="120" width="11" height="11" fill="#1a2030" />

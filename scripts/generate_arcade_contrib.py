@@ -171,15 +171,15 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
     weeks = calendar.get("weeks", [])
     total = int(calendar.get("totalContributions", 0))
 
-    cell = 11
+    cell = 12
     gap = 4
-    grid_x = 195
-    grid_y = 90
+    grid_x = 215
+    grid_y = 94
     grid_w = max(len(weeks), 52) * (cell + gap)
     grid_h = 7 * (cell + gap)
 
     width = grid_x + grid_w + 44
-    height = max(grid_y + grid_h + 42, 236)
+    height = max(grid_y + grid_h + 76, 292)
 
     palette = ["#1a2030", "#30476e", "#3e6aa7", "#5f95dd", "#90c2ff"]
 
@@ -230,8 +230,6 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
       <stop offset="100%" stop-color="#2e4b7b" stop-opacity="0.15" />
     </linearGradient>
     <style>
-      .t-main {{ font: 700 22px 'Segoe UI', 'Trebuchet MS', sans-serif; fill: #e8f0ff; }}
-      .t-sub {{ font: 500 12px 'Segoe UI', 'Trebuchet MS', sans-serif; fill: #9db9e7; }}
       .t-mini {{ font: 500 10px 'Consolas', 'Courier New', monospace; fill: #7fa0d3; }}
       .t-dk {{ font: 500 10px 'Consolas', 'Courier New', monospace; fill: #8b949e; }}
       .grid-cell {{ rx: 2; ry: 2; }}
@@ -270,10 +268,7 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
   <rect width="{width}" height="{height}" fill="url(#bg)" rx="16" />
   <rect x="18" y="18" width="{width - 36}" height="{height - 36}" rx="12" stroke="#294268" stroke-opacity="0.6" />
 
-  <text x="28" y="42" class="t-main">{title}</text>
-  <text x="28" y="61" class="t-sub">Total contributions (last year): {total}</text>
-
-  <rect x="{grid_x - 12}" y="{grid_y - 14}" width="{grid_w + 24}" height="{grid_h + 28}" fill="url(#panel)" rx="10" stroke="#355784" stroke-opacity="0.5"/>
+  <rect x="{grid_x - 16}" y="{grid_y - 20}" width="{grid_w + 32}" height="{grid_h + 40}" fill="url(#panel)" rx="12" stroke="#355784" stroke-opacity="0.5"/>
 """
     )
 
@@ -288,16 +283,16 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
     <rect x="{grid_x - 10}" y="{grid_y - 10}" width="{grid_w + 20}" height="8" fill="#8cc1ff" fill-opacity="0.18" />
   </g>
 
-  <g transform="translate(34 105)">
-    <rect x="-6" y="-6" width="138" height="102" fill="#0d1117" stroke="#30363d" rx="9"/>
+  <g transform="translate(36 104)">
+    <rect x="-8" y="-8" width="160" height="122" fill="#0d1117" stroke="#30363d" rx="10"/>
 """
     )
 
     if donkey_data_uri:
         pieces.append(
-            f"""    <g class="gorilla" transform="translate(4 0)">
-      <rect class="dk-box" x="-2" y="-2" width="126" height="92" rx="8"/>
-      <image href="{donkey_data_uri}" x="0" y="0" width="124" height="92" preserveAspectRatio="xMidYMid meet"/>
+            f"""    <g class="gorilla" transform="translate(8 2)">
+      <rect class="dk-box" x="-2" y="-2" width="142" height="104" rx="8"/>
+      <image href="{donkey_data_uri}" x="0" y="0" width="140" height="102" preserveAspectRatio="xMidYMid meet"/>
     </g>
 """
         )
@@ -318,7 +313,7 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
         )
 
     pieces.append(
-        """    <text x="0" y="106" class="t-dk">gorilla barrel smash mode</text>
+        """    <text x="0" y="122" class="t-dk">gorilla barrel smash mode</text>
   </g>
 """
     )
