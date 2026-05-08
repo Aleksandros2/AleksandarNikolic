@@ -179,7 +179,7 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
     grid_h = 7 * (cell + gap)
 
     width = grid_x + grid_w + 44
-    height = grid_y + grid_h + 130
+    height = max(grid_y + grid_h + 42, 236)
 
     palette = ["#1a2030", "#30476e", "#3e6aa7", "#5f95dd", "#90c2ff"]
 
@@ -211,7 +211,6 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
         target_cells = [target_cells[int(i * step)] for i in range(max_targets)]
 
     title = f"{login}'s Arcade Contribution Arena"
-    generated_on = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     donkey_sprite = build_clean_donkey_sprite(
         pathlib.Path("assets/donkeyK.png"),
         pathlib.Path("assets/donkeyK_clean.png"),
@@ -273,7 +272,6 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
 
   <text x="28" y="42" class="t-main">{title}</text>
   <text x="28" y="61" class="t-sub">Total contributions (last year): {total}</text>
-  <text x="{width - 205}" y="{height - 20}" class="t-mini">auto-generated: {generated_on}</text>
 
   <rect x="{grid_x - 12}" y="{grid_y - 14}" width="{grid_w + 24}" height="{grid_h + 28}" fill="url(#panel)" rx="10" stroke="#355784" stroke-opacity="0.5"/>
 """

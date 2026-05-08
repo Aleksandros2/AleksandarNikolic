@@ -17,7 +17,9 @@
 
 Custom contribution animation (snake-free): a retro gorilla throws barrels at your active contribution blocks.
 
-![Arcade Contribution Arena](./assets/arcade-contrib.svg)
+<p align="center">
+  <img src="./assets/arcade-contrib.svg" alt="Arcade Contribution Arena" width="1034" />
+</p>
 
 ---
 
