@@ -201,7 +201,7 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
                 }
             )
 
-    # Throw at every field so the barrage is visibly full.
+    # Throw at every field, but globally throttled to one barrel every 0.7s.
     target_cells = list(cells)
 
     title = f"{login}'s Arcade Contribution Arena"
@@ -321,6 +321,9 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
 
     throw_start_x = 132
     throw_start_y = 123
+    interval = 0.7
+    travel = 0.62
+    cycle = max(interval * len(target_cells), interval + 0.01)
 
     for idx, target in enumerate(target_cells):
         tx = target["x"] + cell // 2
@@ -328,11 +331,13 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
         dx = tx - throw_start_x
         dy = ty - throw_start_y
         dist = math.sqrt(dx * dx + dy * dy)
-        dur = 1.9 + min(2.8, dist / 165.0)
-        impact_pos = 0.92
-        impact_k0 = max(0.0, impact_pos - 0.05)
-        impact_k1 = impact_pos
-        impact_k2 = min(1.0, impact_pos + 0.06)
+        start_t = idx * interval
+        start_k = min(0.999, start_t / cycle)
+        end_k = min(0.999, (start_t + travel) / cycle)
+        peak_k = min(end_k, start_k + max(0.001, (travel * 0.18) / cycle))
+        impact_k0 = min(end_k, start_k + max(0.001, (travel * 0.78) / cycle))
+        impact_k1 = min(end_k, start_k + max(0.001, (travel * 0.90) / cycle))
+        impact_k2 = end_k
         cx1 = throw_start_x + (tx - throw_start_x) * 0.35
         cy1 = throw_start_y - 44
         cx2 = throw_start_x + (tx - throw_start_x) * 0.7
@@ -350,37 +355,37 @@ def render_svg(login: str, calendar: dict[str, Any], out_path: pathlib.Path) -> 
       <rect class="barrel-band" x="-8" y="0.8" width="16" height="1"/>
       <ellipse cx="0" cy="2.2" rx="8" ry="2.2" fill="#91542f"/>
       <animateTransform attributeName="transform" type="rotate" values="0;360" dur="0.55s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" additive="sum" type="scale" values="1;1;0.05" keyTimes="0;0.9;1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" additive="sum" type="scale" values="1;1;1;0.05;1" keyTimes="0;{impact_k0:.5f};{impact_k1:.5f};{impact_k2:.5f};1" dur="{cycle:.2f}s" begin="0s" repeatCount="indefinite"/>
     </g>
-    <animateMotion dur="{dur:.2f}s" begin="0s" repeatCount="indefinite" rotate="auto">
+    <animateMotion dur="{cycle:.2f}s" begin="0s" repeatCount="indefinite" rotate="auto" calcMode="linear" keyTimes="0;{start_k:.5f};{end_k:.5f};1" keyPoints="0;0;1;1">
       <mpath href="#{path_id}" />
     </animateMotion>
-    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.85;0.92;1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;{start_k:.5f};{peak_k:.5f};{impact_k0:.5f};{impact_k2:.5f};1" dur="{cycle:.2f}s" begin="0s" repeatCount="indefinite"/>
   </g>
 
   <rect x="{target["x"]}" y="{target["y"]}" width="{cell}" height="{cell}" fill="{cell_fill}" opacity="1">
-    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;{impact_k0:.5f};{impact_k1:.5f};{impact_k2:.5f};1" dur="{cycle:.2f}s" begin="0s" repeatCount="indefinite"/>
   </rect>
   <rect x="{target["x"]}" y="{target["y"]}" width="{cell}" height="{cell}" fill="#0d1117" opacity="0">
-    <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;{impact_k0:.5f};{impact_k1:.5f};{impact_k2:.5f};1" dur="{cycle:.2f}s" begin="0s" repeatCount="indefinite"/>
   </rect>
 
   <g class="impact" transform="translate({tx} {ty})" opacity="0">
     <circle r="1" fill="#ffe8a6">
-      <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="1;1;10;14;1" keyTimes="0;{impact_k0:.5f};{impact_k1:.5f};{impact_k2:.5f};1" dur="{cycle:.2f}s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.5f};{impact_k1:.5f};{impact_k2:.5f};1" dur="{cycle:.2f}s" begin="0s" repeatCount="indefinite"/>
     </circle>
     <line x1="-8" y1="-8" x2="8" y2="8" stroke="#ffd89a" stroke-width="1.2">
-      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.5f};{impact_k1:.5f};{impact_k2:.5f};1" dur="{cycle:.2f}s" begin="0s" repeatCount="indefinite"/>
     </line>
     <line x1="8" y1="-8" x2="-8" y2="8" stroke="#ffd89a" stroke-width="1.2">
-      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.5f};{impact_k1:.5f};{impact_k2:.5f};1" dur="{cycle:.2f}s" begin="0s" repeatCount="indefinite"/>
     </line>
     <line x1="0" y1="-10" x2="0" y2="10" stroke="#ffe2b4" stroke-width="1">
-      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.5f};{impact_k1:.5f};{impact_k2:.5f};1" dur="{cycle:.2f}s" begin="0s" repeatCount="indefinite"/>
     </line>
     <line x1="-10" y1="0" x2="10" y2="0" stroke="#ffe2b4" stroke-width="1">
-      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.3f};{impact_k1:.3f};{impact_k2:.3f};1" dur="{dur:.2f}s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;{impact_k0:.5f};{impact_k1:.5f};{impact_k2:.5f};1" dur="{cycle:.2f}s" begin="0s" repeatCount="indefinite"/>
     </line>
   </g>
 """

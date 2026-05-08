@@ -1,41 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="96" viewBox="0 0 760 96" role="img" aria-label="Aleksandar Nikolic name animation">
   <defs>
     <style>
-      .ch { font: 800 52px 'Segoe UI', 'Trebuchet MS', sans-serif; dominant-baseline: middle; }
+      .name {
+        font: 800 52px 'Segoe UI', 'Trebuchet MS', sans-serif;
+        fill: #ffffff;
+        dominant-baseline: middle;
+      }
     </style>
   </defs>
-  <text class="ch" x="24" y="52" fill="#e6edf3" opacity="1">A<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.220;0.360;0.620;0.760;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="24" y="52" fill="#e6edf3" opacity="0">&#x0410;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.220;0.360;0.620;0.760;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="55" y="52" fill="#e6edf3" opacity="1">l<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.235;0.375;0.635;0.775;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="55" y="52" fill="#e6edf3" opacity="0">&#x043b;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.235;0.375;0.635;0.775;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="86" y="52" fill="#e6edf3" opacity="1">e<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.250;0.390;0.650;0.790;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="86" y="52" fill="#e6edf3" opacity="0">&#x0435;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.250;0.390;0.650;0.790;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="117" y="52" fill="#e6edf3" opacity="1">k<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.265;0.405;0.665;0.805;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="117" y="52" fill="#e6edf3" opacity="0">&#x043a;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.265;0.405;0.665;0.805;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="148" y="52" fill="#e6edf3" opacity="1">s<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.280;0.420;0.680;0.820;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="148" y="52" fill="#e6edf3" opacity="0">&#x0441;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.280;0.420;0.680;0.820;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="179" y="52" fill="#e6edf3" opacity="1">a<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.295;0.435;0.695;0.835;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="179" y="52" fill="#e6edf3" opacity="0">&#x0430;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.295;0.435;0.695;0.835;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="210" y="52" fill="#e6edf3" opacity="1">n<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.310;0.450;0.710;0.850;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="210" y="52" fill="#e6edf3" opacity="0">&#x043d;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.310;0.450;0.710;0.850;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="241" y="52" fill="#e6edf3" opacity="1">d<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.325;0.465;0.725;0.865;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="241" y="52" fill="#e6edf3" opacity="0">&#x0434;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.325;0.465;0.725;0.865;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="272" y="52" fill="#e6edf3" opacity="1">a<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.340;0.480;0.740;0.880;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="272" y="52" fill="#e6edf3" opacity="0">&#x0430;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.340;0.480;0.740;0.880;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="303" y="52" fill="#e6edf3" opacity="1">r<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.355;0.495;0.755;0.895;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="303" y="52" fill="#e6edf3" opacity="0">&#x0440;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.355;0.495;0.755;0.895;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="365" y="52" fill="#e6edf3" opacity="1">N<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.385;0.525;0.785;0.925;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="365" y="52" fill="#e6edf3" opacity="0">&#x041d;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.385;0.525;0.785;0.925;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="396" y="52" fill="#e6edf3" opacity="1">i<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.400;0.540;0.800;0.940;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="396" y="52" fill="#e6edf3" opacity="0">&#x0438;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.400;0.540;0.800;0.940;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="427" y="52" fill="#e6edf3" opacity="1">k<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.415;0.555;0.815;0.955;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="427" y="52" fill="#e6edf3" opacity="0">&#x043a;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.415;0.555;0.815;0.955;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="458" y="52" fill="#e6edf3" opacity="1">o<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.430;0.570;0.830;0.970;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="458" y="52" fill="#e6edf3" opacity="0">&#x043e;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.430;0.570;0.830;0.970;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="489" y="52" fill="#e6edf3" opacity="1">l<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.445;0.585;0.845;0.985;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="489" y="52" fill="#e6edf3" opacity="0">&#x043b;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.445;0.585;0.845;0.985;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="520" y="52" fill="#e6edf3" opacity="1">i<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.460;0.600;0.860;0.999;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="520" y="52" fill="#e6edf3" opacity="0">&#x0438;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.460;0.600;0.860;0.999;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="551" y="52" fill="#e6edf3" opacity="1">c<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.475;0.615;0.875;0.999;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
-  <text class="ch" x="551" y="52" fill="#e6edf3" opacity="0">&#x045b;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.475;0.615;0.875;0.999;1" dur="8.00s" begin="0s" repeatCount="indefinite"/></text>
+
+  <text class="name" x="24" y="52" opacity="1">
+    Aleksandar Nikolic
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="6s" repeatCount="indefinite"/>
+  </text>
+
+  <text class="name" x="24" y="52" opacity="0">
+    &#x0410;&#x043B;&#x0435;&#x043A;&#x0441;&#x0430;&#x043D;&#x0434;&#x0430;&#x0440; &#x041D;&#x0438;&#x043A;&#x043E;&#x043B;&#x0438;&#x045B;
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.5;0.95;1" dur="6s" repeatCount="indefinite"/>
+  </text>
 </svg>
